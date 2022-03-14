@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind utilities;
+
+@font-face {
+    font-family: Andika;
+    src: url('../assets/fonts/Andika-Regular.woff') format("woff");
+    src: url('../assets/fonts/Andika-Regular.woff2') format("woff2");
+}
+/* use Andika - Italic in .woff2 format */
+@font-face {
+    font-family: AndikaW;
+    font-style: italic;
+    src: url('../assets/fonts/Andika-Italic.woff') format("woff");
+    src: url('../assets/fonts/Andika-Italic.woff2') format("woff2");
+}
+/* use Andika - Bold in .woff2 format */
+@font-face {
+    font-family: AndikaW;
+    font-weight: bold;
+    src: url('../assets/fonts/Andika-Bold.woff') format("woff");
+    src: url('../assets/fonts/Andika-Bold.woff2') format("woff2");
+}
+/* use Andika - Bold Italic in .woff2 format */
+@font-face {
+    font-family: AndikaW;
+    font-weight: bold;
+    font-style: italic;
+    src: url('../assets/fonts/Andika-BoldItalic.woff') format("woff");
+    src: url('../assets/fonts/Andika-BoldItalic.woff2') format("woff2");
+}
